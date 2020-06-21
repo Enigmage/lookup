@@ -26,7 +26,7 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
         
         To do that add the following line at the end of your ~/.profile or ~/.bash_profile:
         
-            **export PATH=$PATH:~/.local/bin/**
+             export PATH=$PATH:~/.local/bin/
             
         Save and exit then run:
             
