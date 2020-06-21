@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup as beSo
 from colorama import Fore,Style
 
-#query = input(f"{Fore.RED}{Style.BRIGHT}Enter Query: ")
 try:
     if(sys.argv[1] == "-s"):
 
