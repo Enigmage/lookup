@@ -22,14 +22,13 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
         
         Make sure you have python3 and pip3 installed on your system.
         Rest of the dependencies will be installed automatically.
-        If your ~/.local/bin/ directory is not added to your path variable, make sure to do that too.
-        To do that:
+        Also if your local bin directory is not added the PATH by default, make sure to add it.
+        
+        To do that add the following line at the end of your ~/.profile or ~/.bash_profile:
+        
+            **export PATH=$PATH:~/.local/bin/**
             
-            Add the following line at the end of your ~/.profile or ~/.bash_profile
-            
-            export PATH=$PATH:~/.local/bin/
-            
-            Save and exit then run:
+        Save and exit then run:
             
             $ source .profile
                     or
