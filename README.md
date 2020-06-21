@@ -1,2 +1,6 @@
-# lookup
-A python command-line tool to fetch the meaning, synonyms, and antonyms of a word and display them in terminal.
+
+A simple python command-line tool to fetch and display the meaning, synonyms, and antonyms of a word right from the terminal.
+
+Usage:
+
+    
