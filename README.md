@@ -14,7 +14,27 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
         
         $ lookup -m scrupulous      (Fetches the meaning of Scrupulous)
         $ lookup -s scrupulous      (Fetches the synonyms of Scrupulous)
-        $ lookum -a scrupulous      (Fetches the antonyms of Scrupulous)
+        $ lookup -a scrupulous      (Fetches the antonyms of Scrupulous)
 
 #### Installation:
+
+    ##### Requirements:
+        
+        Make sure you have python3 and pip3 installed on your system.
+        Rest of the dependencies will be installed automatically.
+        If your ~/.local/bin/ directory is not added to your path variable, make sure to do that too.
+
+    ##### From Github:
+        
+        1. Clone this repository
+        2. navigate to the directory:
+            
+            $ cd lookup
+
+           then:
+
+            $ pip3 install .
+
+        3. You are good to go!
+      
 
