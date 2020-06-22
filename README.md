@@ -1,7 +1,7 @@
 # Lookup
 A simple python command-line tool to fetch and display meaning, synonyms and antonyms of any word right in the terminal.
 
-#### Usage: lookup [OPTION] [WORD] 
+#### Usage: pluck [OPTION] [WORD] 
 
     List the synonym,antonym and meaning of a word in the terminal
     
@@ -12,9 +12,9 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
     
     Example:
         
-        $ lookup -m scrupulous      (Fetches the meaning of Scrupulous)
-        $ lookup -s scrupulous      (Fetches the synonyms of Scrupulous)
-        $ lookup -a scrupulous      (Fetches the antonyms of Scrupulous)
+        $ pluck -m scrupulous      (Fetches the meaning of Scrupulous)
+        $ pluck -s scrupulous      (Fetches the synonyms of Scrupulous)
+        $ pluck -a scrupulous      (Fetches the antonyms of Scrupulous)
 
 #### Installation:
 
@@ -40,7 +40,7 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
         1. Clone this repository
         2. navigate to the directory:
             
-            $ cd lookup
+            $ cd pluck
 
            then:
 
