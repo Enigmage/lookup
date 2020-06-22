@@ -40,10 +40,10 @@ try:
             print(f"{Fore.YELLOW}{Style.BRIGHT}{num}{txt.text}")
 
     else:
-        print("Usage lookup [OPTIONS] [WORD] \n Examples: \n $ lookup -m good  (Fetches meaning of good) \n $ lookup -s good  (Fetch synonyms of good) \n $ lookup -a good  (Fetch antonyms of good) ")
+        print("Usage pluck [OPTIONS] [WORD] \n Examples: \n $ pluck -m good  (Fetches meaning of good) \n $ pluck -s good  (Fetch synonyms of good) \n $ pluck -a good  (Fetch antonyms of good) ")
 
 except IndexError:
 
-    raise SystemExit("Usage lookup [OPTIONS] [WORD] \n Examples: \n $ lookup -m good  (Fetches meaning of good) \n $ lookup -s good  (Fetch synonyms of good) \n $ lookup -a good  (Fetch antonyms of good) ")
+    raise SystemExit("Usage pluck [OPTIONS] [WORD] \n Examples: \n $ pluck -m good  (Fetches meaning of good) \n $ pluck -s good  (Fetch synonyms of good) \n $ pluck -a good  (Fetch antonyms of good) ")
 
 

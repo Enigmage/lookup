@@ -9,6 +9,6 @@ setup( name = 'lookup',
        license = 'GNU General Public License v2.0',
        packages = ['lookup'],
        install_requires = ['requests', 'bs4', 'colorama'],
-       scripts = ['bin/lookup'],
+       scripts = ['bin/pluck'],
        zip_safe = False 
         )
