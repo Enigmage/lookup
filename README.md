@@ -1,4 +1,4 @@
-# Lookup
+# pluck
 A simple python command-line tool to fetch and display meaning, synonyms and antonyms of any word right in the terminal.
 
 #### Usage: pluck [OPTION] [WORD] 
