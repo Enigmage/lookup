@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+pip3 install .
+cat exportPath >> ~/.profile
+source .profile
