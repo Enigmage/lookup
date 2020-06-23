@@ -3,5 +3,7 @@ import sys
 from pluck import scrape
 
 if __name__=='__main__':
-    scrape(sys.argv[1], sys.argv[2])
-
+    try:
+        scrape(sys.argv[1], sys.argv[2])
+    except IndexError:
+        raise SystemExit("Usage pluck [OPTIONS] [WORD] \n Examples: \n $ pluck -m good  (Fetches meaning of good) \n $ pluck -s good  (Fetch synonyms of good) \n $ pluck -a good  (Fetch antonyms of good) ")
