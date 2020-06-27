@@ -22,7 +22,8 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
         
         Make sure you have python3 and pip3 installed on your system.
         Rest of the dependencies will be installed automatically.
-        Also if your local bin directory is not added the PATH by default, make sure to add it.
+        Also if your local bin directory is not added to the PATH variable
+        by default, make sure to add it.
         
         To do that add the following line at the end of your ~/.profile or ~/.bash_profile:
         
