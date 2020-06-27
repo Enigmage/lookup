@@ -35,7 +35,7 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
             $ source .bash_profile
              
 
-    From Github:
+    Using pip:
         
         1. Clone this repository
         2. navigate to the directory:
@@ -48,4 +48,26 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
 
         3. You are good to go!
       
+    Using install script:
+        
+        1. Script assumes you use .profile to set up PATH entries; if otherwise go ahead and
+           change the source code of /install to whatever you use. 
+        2. Clone the repo then navigate to the directory.
+        3. Inside it run:
+            
+            $ chmod +x install
+
+           To give executable permission to the install script.
+           Then simply run:
+            
+            $ ./install
+           
+           This will take care of installing the tool and setting up the path variable.
+
+#### Recommended
+    
+    The main purpose of this tool is to not have to open up another browser window to lookup simple things
+    like synonyms or meanings of words. So, opening up another terminal window is still not efficient enough.
+    Thus, it is recommended to use a drop-down terminal or scratchpads(like in dwm) to use this tool, which
+    will make your workflow much more efficient.
 
