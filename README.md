@@ -64,10 +64,10 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
            
            This will take care of installing the tool and setting up the path variable.
 
-#### Recommended
+#### Recommended:
     
-    The main purpose of this tool is to not have to open up another browser window to lookup simple things
-    like synonyms or meanings of words. So, opening up another terminal window is still not efficient enough.
-    Thus, it is recommended to use a drop-down terminal or scratchpads(like in dwm) to use this tool, which
-    will make your workflow much more efficient.
+    The main purpose of this tool is to not have to open up a browser window to lookup simple 
+    things like synonyms or meanings of words. Similarly, opening up a terminal window is
+    is still not efficient enough. Thus, it is recommended to use a drop-down terminal or 
+    scratchpads(like in dwm) to use this tool, which will make your workflow much more efficient.
 
