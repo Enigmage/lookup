@@ -1,17 +1,13 @@
 import requests 
 from bs4 import BeautifulSoup as beSo
 from colorama import Fore,Style
-
 def scrape(option, word):
-
     if( option == "-s"):
         loadPage = requests.get(f"https://www.thesaurus.com/browse/{word}")
         src = loadPage.content
         soup = beSo(src, 'html.parser')
         myText = soup.find_all("a", {"class":"css-r5sw71-ItemAnchor etbu2a31"}) 
-        #myTextWeak = soup.find_all("a", {"class" : "css-1k3kgmb-ItemAnchor etbu2a31"})
         print(f"{Fore.CYAN}{Style.BRIGHT}Synonyms of {word}:")
-        
         for num, txt in enumerate(myText, 1):
             print(f"{Fore.GREEN}{Style.BRIGHT}{num}: {txt.text}")
     
