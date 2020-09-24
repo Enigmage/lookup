@@ -1,3 +1,4 @@
+import json
 import requests 
 from bs4 import BeautifulSoup as beSo
 from colorama import Fore,Style
@@ -23,8 +24,8 @@ def scrape(option, word):
             print(f"{Fore.RED}{Style.BRIGHT}{num}: {txt.text}")
 
     elif( option == "-m"): 
-        loadPage = requests.get(f"https://www.merriam-webster.com/dictionary/{word}")
-        src = loadPage.content 
+        loadPage = requests.get(f" https://api.dictionaryapi.dev/api/v1/entries/en/{word} ")
+        src = json.load(loadPage) 
         soup = beSo(src, 'html.parser')
         myText = soup.find_all("span", {"class" : "dtText"})      
         print(f"{Fore.CYAN}{Style.BRIGHT}Meaning of {word}: ")
