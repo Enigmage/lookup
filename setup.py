@@ -11,4 +11,4 @@ setup( name = 'pluck',
        install_requires = ['requests', 'bs4', 'colorama'],
        scripts = ['bin/pluck'],
        zip_safe = False 
-        )
+)
