@@ -16,10 +16,9 @@ Example:
     $ pluck -s scrupulous      (Fetches the synonyms of Scrupulous)
     $ pluck -a scrupulous      (Fetches the antonyms of Scrupulous)
 
-Screenshots:
-![Synonyms](.github/syno.png)
+Screenshot:
 
-![Antonyms](.github/antonyms.png)
+![example](.github/example.png)
 
 
 
