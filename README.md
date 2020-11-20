@@ -42,7 +42,7 @@ Save and exit then run:
     $ source .bash_profile
          
 
-Using pip:
+### Using pip:
     
 1. Clone this repository
 2. navigate to the directory:
