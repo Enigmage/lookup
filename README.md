@@ -6,8 +6,8 @@ A simple python command-line tool to fetch and display meaning, synonyms and ant
 List the synonym,antonym and meaning of a word in the terminal
 
 Options:
-    -m                  Fetch meaning of a word
-    -s                  Fetch synonyms of a word
+    -m                  Fetch meaning of a word  
+    -s                  Fetch synonyms of a word  
     -a                  Fetch antonyms of a word
 
 Example:
