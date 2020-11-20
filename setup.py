@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup( name = 'pluck',
-       version = '0.2',
+       version = '1.0',
        description = 'Terminal based dictionary/thesaurus',
        url = 'https://github.com/Enigmage/pluck.git',
        author = 'Ali Zaidi',

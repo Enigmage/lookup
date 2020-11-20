@@ -18,7 +18,7 @@ Example:
 
 Screenshot:
 
-![example](.github/example.png)
+![example](.github/sc02.png)
 
 
 
